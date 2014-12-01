@@ -1,0 +1,297 @@
+@font-face {
+    font-family: Pt Sans;
+    src: url("../fonts/Pt_Sans-narrow.ttf");
+}
+body{
+	margin:0;
+    padding:0;
+    width:1260px;
+	height:1172px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#999999;
+}
+h2, .main-menu, .order{
+	text-transform:uppercase;
+	font-family:"Pt Sans";
+}
+.header{	
+	height:150px;
+	padding:0px;
+	margin:0px;
+}
+	
+.logo, .contacts{
+	display:inline-block;
+}
+.logo{
+	margin-left:143px;
+	margin-top:20px;
+}
+.contacts{
+	margin-left:546px;
+}
+.contacts li{
+	margin-bottom:5px;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.icon{
+	position:absolute;
+	margin-left:-40px;
+	margin-right:10px;
+	margin-top:2px;
+}
+.icon-mail{
+	margin-top:3px;
+	margin-left:-39px;
+}
+/*Закончили с оформлением Header */
+
+.main-menu{
+	box-shadow:inset 0 0 0 3px #4a4a4a;
+	margin:0;
+	padding:0;
+	height:50px;
+	padding-left:97px;
+	background-color:#404040;
+}
+.main-menu li{
+	display:inline-block;
+	
+}
+.main-menu li:first-child{
+	margin-left:16px;
+}
+.main-menu a{
+	display:block;
+	padding:15px 15px;
+    padding-bottom:16px;
+	text-decoration:none;
+	font-size:16px;
+	color:#ffffff;
+}
+.main-menu a:hover{
+	background-color:#008abd;
+}
+input[type="search"]{
+	background-color:#404040;
+	margin-left:180px;
+	margin-top:12px;
+	margin-bottom:12px;
+	padding-bottom:3px;
+	padding-top:5px;
+	width:191px;
+	border:1px solid #303030;
+	box-shadow:inset 0 0 3px 1px #303030;
+}
+input[type="search"]:focus{
+	color:#ffffff;
+	outline-color:#008abd;
+}
+input[type="image"]{
+	position:absolute;
+	top:112px;
+	left:1056px;
+	}
+/*Закончили с оформлением шапки*/
+.content{
+	height:937px;
+}
+.order{
+	height:390px;
+	background-image: url("../img/Banner_big.jpg");
+	margin:0px;
+	padding:0px;
+	font-family:"Pt Sans";
+}
+.order a{
+	display:block;
+	text-align:center;
+	width:201px;
+	height:49px;
+	position:absolute;
+	top:406px;
+	left:591px;
+	text-decoration:none;
+	font-size:14pt;
+	background-color:#008abd;
+	color:#ffffff;
+	border-radius:5px;	
+}
+.order a h2{
+	position:relative;
+	bottom:17px;
+}
+.navigation{
+	position:absolute;
+	top:488px;
+	left:593px;
+	width:60px;
+	height:20px;	
+	}
+.nav-button{
+	padding:0px;
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin-left:3px;
+	background-color:#a0a0a0;
+	opacity:0.9;
+}
+.active{
+	background-color:#009de7;
+}
+.main{
+	min-height:547px;
+	margin-top:-25px;
+}
+.clearfix{
+	clear:both;
+}
+.block{		
+	margin-top:;
+	margin-left:15px;
+	display:inline-block;
+	float:left;
+	width:310px;
+	height:325px;
+	top:537px;
+}
+
+.main img{	
+	float:left;
+	margin-right:10px;
+}
+.offer{
+	margin-left:150px;
+}
+.main .block h2{	
+	color:#008abd;
+	border-bottom:2px solid #008abd;
+	font-size:30px;
+}
+.block a{
+	color:#ef009d;
+}
+/*выделяется большой блок, попробовать применить clear:both*/
+.gradient{
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-                           stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%); /*         Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%); /* Opera         11.10+  */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#1a000000",               endColorstr="#00000000",GradientType=0 ); /* IE6-9 */
+}
+.testimonials{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	margin-top:60px;
+	margin-bottom:0px;
+}
+.testimonials h2{	
+	color:#008abd;
+	font-size:30px;
+}
+.testimonials p{
+	width:865px;
+	margin-left:48px;
+	font-style:italic;
+	font-size:14px;
+	
+}
+.testimonials b{
+	font-size:12px;
+	color:#ef009d;
+	font-size:12px;
+	margin-left:48px;
+	margin-bottom:10px;
+}
+.copy2{
+	position:absolute;
+	top:950px;
+	left:150px;
+}
+.copy1{
+	color:#e9e9e9;
+	position:absolute;
+	top:1004px;
+	left:1077px;
+}
+/*Осталось оформить подвал */
+.footer{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	width:1260px;
+	height:86px;
+	background-color:#404040;
+}
+.footer_other{
+	margin-left:132px;
+	display:inline-block;
+	float:left;
+	background:url("../img/shape.png") no-repeat 30% 50%;
+}
+.footer_other ul{
+	font-size:11px;
+	list-style:none;
+	padding-left:28px;	
+	display:inline-block;
+	margin-top:25px;
+}
+.footer_other li{	
+	padding-bottom:10px;
+	}
+.footer_other a{	
+	color:#b1b1b1;
+}
+.footer_other .other_right{
+	padding-left:35px;
+}
+/*Continue to issue button*/
+.share{
+	margin-left:79px;
+	margin-top:20px;
+	display:inline-block;
+	width:60px;
+	height:50px;
+	background-color:#404040;
+	border-left:2px solid #333333;
+	border-right:2px solid #333333;
+}
+.social{
+	margin-top:3px;
+	display:inline-block;
+    width:24px;
+    height:20px;
+    margin-left:3px;
+	background:url("../img/social-icon.png") no-repeat;
+	background-color:#404040;
+}
+.social-tw{	
+	background-color:#404040;
+	background-position:0 0;
+}
+.social-youtube{
+	background-position:-40px 0;
+}
+.social-vimeo{
+	background-position:0px -25px;
+	}
+.social-fb{
+	background-position:-40px -25px;
+}
+.footer_logo{
+	position:absolute;
+	left:965px;
+	top:1103px;
+}
+.footer_logo b{
+	font-size:10px;
+	color:#646363;
+}
