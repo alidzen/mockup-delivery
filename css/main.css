@@ -2,68 +2,78 @@
     font-family: Pt Sans;
     src: url("../fonts/Pt_Sans-narrow.ttf");
 }
-body{
-	margin:0;
-    	padding:0;
-    	width:1260px;
-	height:1172px;
-	font-family:Verdana;
-	font-size:12px;
-	color:#999999;
+
+body {
+	margin: 0;
+    padding: 0;
+    width: 1260px;
+	height: 1172px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: #999999;
 }
-h2, .main-menu, .order{
+
+h2, 
+.main-menu,
+.order {
 	text-transform:uppercase;
 	font-family:"Pt Sans";
 }
-.header{	
-	height:1279.863481228669%;
-	padding:0px;
-	margin:0px;
+
+.header {	
+	height: 12.79863481228669%;
+	padding: 0;
+	margin: 0;
 }
 	
-.logo, .contacts{
-	display:inline-block;
+.logo, .contacts {
+	display: inline-block;
 }
-.logo{
-	margin-left:11.34920634920635%;
-	margin-top:20px;
+
+.logo {
+	margin-left: 11.34920634920635%;
+	margin-top: 1.70648464163823%;
 }
+
 .contacts{
-	margin-left:546px;
+	margin-left: 43.33333333333333%;
 }
-.contacts li{
-	margin-bottom:5px;
-	list-style:none;
-	padding:0px;
-	margin:0px;
+
+.contacts li {
+	list-style: none;
+	padding:0;
+	margin:0;
 }
-.icon{
-	position:absolute;
-	margin-left:-40px;
-	margin-right:10px;
-	margin-top:2px;
+
+.icon {
+	position: absolute;
+	margin-left: -3.17460317460317%;
+	margin-top: .17064846416382%;
 }
-.icon-mail{
-	margin-top:3px;
-	margin-left:-39px;
+
+.icon-mail {
+	margin-top: .25597269624573%;
+	margin-left:-3.0952380952381%;
 }
 /*Закончили с оформлением Header */
 
-.main-menu{
-	box-shadow:inset 0 0 0 3px #4a4a4a;
-	margin:0;
-	padding:0;
-	height:50px;
-	padding-left:97px;
-	background-color:#404040;
+.main-menu {
+	box-shadow: inset 0 0 0 -3.175% #4a4a4a;
+	margin: 0;
+	padding: 0;
+	height: 33%;
+	padding-left: 7.6984126984127%;
+	background-color: #404040;
 }
-.main-menu li{
+
+.main-menu li {
 	display:inline-block;
-	
 }
-.main-menu li:first-child{
-	margin-left:16px;
+
+.main-menu li:first-child {
+	margin-left: 1.26984126984127%;
 }
+
 .main-menu a{
 	display:block;
 	padding:15px 15px;
@@ -72,9 +82,11 @@ h2, .main-menu, .order{
 	font-size:16px;
 	color:#ffffff;
 }
+
 .main-menu a:hover{
 	background-color:#008abd;
 }
+
 input[type="search"]{
 	background-color:#404040;
 	margin-left:180px;
@@ -102,8 +114,8 @@ input[type="image"]{
 .order{
 	height:390px;
 	background-image: url("../img/Banner_big.jpg");
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	font-family:"Pt Sans";
 }
 .order a{
@@ -132,7 +144,7 @@ input[type="image"]{
 	height:20px;	
 	}
 .nav-button{
-	padding:0px;
+	padding:0;
 	display:inline-block;
 	width:10px;
 	height:10px;
@@ -191,7 +203,7 @@ input[type="image"]{
 	margin-right:auto;
 	clear:both;
 	margin-top:60px;
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 .testimonials h2{	
 	color:#008abd;
@@ -224,8 +236,8 @@ input[type="image"]{
 }
 /*Осталось оформить подвал */
 .footer{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	display:inline-block;
 	width:1260px;
 	height:86px;
@@ -281,7 +293,7 @@ input[type="image"]{
 	background-position:-40px 0;
 }
 .social-vimeo{
-	background-position:0px -25px;
+	background-position:0 -25px;
 	}
 .social-fb{
 	background-position:-40px -25px;
