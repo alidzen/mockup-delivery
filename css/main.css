@@ -4,8 +4,8 @@
 }
 body{
 	margin:0;
-    padding:0;
-    width:1260px;
+    	padding:0;
+    	width:1260px;
 	height:1172px;
 	font-family:Verdana;
 	font-size:12px;
@@ -16,7 +16,7 @@ h2, .main-menu, .order{
 	font-family:"Pt Sans";
 }
 .header{	
-	height:150px;
+	height:1279.863481228669%;
 	padding:0px;
 	margin:0px;
 }
@@ -25,7 +25,7 @@ h2, .main-menu, .order{
 	display:inline-block;
 }
 .logo{
-	margin-left:143px;
+	margin-left:11.34920634920635%;
 	margin-top:20px;
 }
 .contacts{
